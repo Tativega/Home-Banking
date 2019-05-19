@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="login/style.css">
+    <title>HOME BANKING</title>
+    <script type ="text/javascript" src="login/login.js">
+    </script>
+  </head>
+  <body>
+    <h1> Hola, ingresa tus datos para poder operar.</h1>
+    <div id="body"> 
+      <form id="login">
+        <div class="usuario"> 
+          <label for="usuario">Usuario:</label><br>
+          <input type="text" id="usuario">
+        </div>
+        <div class="contraseña">
+          <label for="contraseña">Contraseña:</label><br>
+          <input type="password" id="pass" >
+        </div>
+        <div class="boton">
+          <input value="Ingresar" onclick="iniciarSesion()" type="button">   
+        </div>
+      </form>
+    </div>
+  </body>
